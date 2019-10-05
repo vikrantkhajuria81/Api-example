@@ -50,7 +50,7 @@ componentDidMount(){
       const {data} = this.state
         return(
             <div>
-              {this.state.load ?<div> {data.id} {data.title}</div> : <div> loading...</div>}
+              {this.state.load ?<div> hiiii {data.id} {data.title}</div> : <div> loading...</div>}
               
 // {this.state.text1}
                 <input type="text" name="text1" value={
